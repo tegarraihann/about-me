@@ -2,6 +2,7 @@ body{
     margin: auto;
 }
 
+
 @font-face {
     font-family: 'nexa';
     src: url(nexa/Nexa-Trial-ExtraBold.ttf);
@@ -19,21 +20,17 @@ body{
     to {background-color: grey;}
 }
 
-.ellips{
-    background-color:whitesmoke;
-    width: 310px;
-    height: 310px;
-    margin-left: 490px;
+
+
+.image img{
     border-radius: 50%;
-    margin-top: -230px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 9px solid rgba(255, 255, 255, 0.979);
+    margin-top: -17%;
 }
 
-img{
-    border-radius: 50%;
-    margin-left: 12px;
-    margin-top: 9px;
-    border: 200px;
-}
 h1{
     font-family: 'nexa';
     text-align: center;
