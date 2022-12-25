@@ -11,6 +11,7 @@ body{
 }
 
 .bgnav{
+    position: relative;
     background-color: #000000bd;
     width: 1440px;
     height: 433px;
