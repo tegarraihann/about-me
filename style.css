@@ -1,6 +1,7 @@
 body{
     background-color: azure;
-    margin:auto;
+    margin: auto;
+    padding: 0px;
 }
 
 
@@ -10,7 +11,6 @@ body{
 }
 
 .bgnav{
-    position:absolute;
     background-color: #000000bd;
     width: 1440px;
     height: 433px;
