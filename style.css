@@ -92,7 +92,7 @@ button{
 
 
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 355px){
     body{
         background-color: azure;
         margin: 0px;
@@ -111,7 +111,7 @@ button{
         height: 130px;
         border-radius: 50%;
         border: 3px solid rgb(97, 95, 95);
-        left: calc(67% - 373px/2 + 0.5px);
+        left: calc(80% - 373px/2 + 0.5px);
         top: calc(47% - 400px/2 - -30px);
     }
 
