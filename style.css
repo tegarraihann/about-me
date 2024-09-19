@@ -3,6 +3,7 @@ body{
     margin: auto;
     padding: 0px;
     height: auto;
+    background-color: #272829;
 }
 
 
@@ -16,8 +17,112 @@ body{
     src: url(nexa/NexaText-Trial-Bold.ttf);
 }
 
+/* NAVIGASI BAR */
+#judul-navbar{
+    font-style: italic;
+    font-size: large;
+}
 
-.image-profile{
+#navigasi-bar, a{
+    font-size: large;
+}
+
+#navigasi-bar a:hover{
+    font-style: unset;
+    text-decoration: underline;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+}
+
+#profile img{
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+#text-profile{
+    padding-top: 10px;
+}
+
+#text-profile h2{
+    text-align: center;
+    color: #D8D9DA;
+}
+
+#tentang-saya{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #D8D9DA;
+
+}
+
+#container{
+    padding-top: 90px;
+}
+
+#container-atas{
+    height: 625px;
+}
+
+/* container body */
+#container-body{
+    margin-top: 200px;
+    height: 900px;
+}
+
+#container-body h2{
+    color: #D8D9DA;
+    text-align: center;
+}
+
+#card{
+    padding: 15px;
+}
+
+.card-body{
+    background-color: #6B728E;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+.card-text{
+    text-align: start;
+}
+
+.card-title{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.btn{
+    margin: 5px;
+}
+
+/* FOOTER */
+
+#container-img-footer{
+    display: flex;
+    justify-content: center;
+}
+
+#container-img-footer i{
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+#text-footer{
+    color: white;
+    text-align: center;
+}
+/* .image-profile{
     height: 800px;
 }
 
@@ -25,7 +130,6 @@ img[alt='gambar-aing']{
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    /* background-color: red; */
     border-width: 5px;
     border-style: solid;
     border-color: #998b70;
@@ -104,9 +208,9 @@ a:hover{
 footer{
     background-color: slategray;
     height: 180px;
-}  
+}   */
 
-    @media (min-width: 375px) {
+    /* @media (min-width: 375px) {
 
 
         .image-profile > img{
@@ -125,7 +229,6 @@ footer{
         }
 
         .image-profile > p{
-            /* color: black; */
             margin-left: 5%;
             margin-right: 5%;
             font-size: small;
@@ -143,13 +246,7 @@ footer{
             margin-right: 5px;
             height: 10%;
             margin: 10px;
-            /* background-color: red; */
         }
-/* 
-        .card > img{
-            width: ;
-
-        } */
 
         .card-body{
             height: 300px;
@@ -170,4 +267,4 @@ footer{
             font-size: small;
 
         }
-    }
+    } */

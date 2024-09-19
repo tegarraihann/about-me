@@ -1,10 +1,9 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-    var h2Text = 'TEGAR RAIHAN AKMALI';
-    var pText =
-      'Hi perkenalkan nama saya Tegar Raihan Akmali\nSaya mahasiswa aktif di salah satu perguruan tinggi swasta Islam\nDi Pekanbaru - Riau, saya sedang menempuh pendidikan S1 Di Fakultas Teknik\nProgram Studi Teknik Informatika.';
+    var h2Text = 'as';
+    var pText ='Hi perkenalkan nama saya Tegar Raihan Akmali Saya mahasiswa aktif di salah satu perguruan tinggi swasta Islam di Pekanbaru - Riau, saya sedang menempuh pendidikan S1 Di Fakultas Teknik, Program Studi Teknik Informatika.';
   
-    var pElement = document.querySelector('.image-profile p');
+    var pElement = document.querySelector('#tentang-saya');
   
     var speed = 50; 
   
